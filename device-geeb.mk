@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	device/lge/geehrc/prebuilt/geeb/init.geeb.rc:root/init.geeb.rc \
 	device/lge/geehrc/prebuilt/geeb/init.geeb.usb.rc:root/init.geeb.usb.rc \
-	device/lge/geehrc/prebuilt/geeb/fstab.geehrc:root/fstab.geehrc \
+	device/lge/geehrc/prebuilt/geeb/fstab.geeb:root/fstab.geeb \
 	device/lge/geehrc/prebuilt/geeb/ueventd.geeb.rc:root/ueventd.geeb.rc \
 	device/lge/geehrc/media_profiles.xml:system/etc/media_profiles.xml \
 	device/lge/geehrc/media_codecs.xml:system/etc/media_codecs.xml
