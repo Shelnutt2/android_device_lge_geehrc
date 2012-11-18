@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
         VisualizationWallpapers \
         librs_jni
 
-LOCAL_KERNEL := device/lge/geehrc/kernel-geeb
+LOCAL_KERNEL := device/lge/geehrc/prebuilt/geeb/kernel-geeb
 
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel
