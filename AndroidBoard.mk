@@ -15,5 +15,5 @@
 #
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-TARGET_PREBUILT_KERNEL := device/lge/geehrc/kernel-geehrc
+TARGET_PREBUILT_KERNEL := device/lge/geehrc/prebuilt/geehrc/kernel-geehrc
 endif
