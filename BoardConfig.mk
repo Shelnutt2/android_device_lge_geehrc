@@ -27,12 +27,12 @@ TARGET_NO_BOOTLOADER := true
 
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_KERNEL_CMDLINE := console=ttySHL0,115200,n8 androidboot.hardware=geehrc lpj=67677 ro.secure=0 ro.debuggable=1
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0xe58000
+BOARD_KERNEL_CMDLINE := vmalloc=600M console=ttySHL0,115200,n8 androidboot.hardware=geehrc lpj=67677 ro.secure=0 ro.debuggable=1 msm_rtb.filter=0x0 ehci-hcd.park=3
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x1308000
 
-BOARD_USES_ALSA_AUDIO:= true
+#BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_FLUENCE_INCALL := true
-BOARD_USES_SEPERATED_AUDIO_INPUT := true
+#BOARD_USES_SEPERATED_AUDIO_INPUT := true
 
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
